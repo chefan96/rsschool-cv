@@ -2,6 +2,11 @@
     box-sizing: border-box;
   }
   
+  @font-face {
+    font-family: Roboto;
+     src: url("./assets/fonts/Roboto-Regular.ttf");
+   }
+
   html {
     scroll-behavior: smooth; 
   }
@@ -140,7 +145,13 @@
     line-height: 50px;
     word-spacing: 3px;
   }
-  
+  .rss {
+    width: 110px;
+    height: 45px;
+    background-image: url("./assets/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  } 
   .main-title::after {
     content: "";
     position: absolute;
@@ -252,7 +263,7 @@
   }
   
   .footer-container {
-    font-size: 10px;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -261,7 +272,7 @@
   }
   
   .github {
-    font-size: 10px;
+    font-size: 20px;
     color: #fff;
     text-decoration: none;
     line-height: 45px;
