@@ -14,7 +14,7 @@
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
@@ -204,12 +204,12 @@
   
   .section-item a {
     text-decoration: none;
-    color: #829985;
+    color: #a73a3a;
     transition: color 0.5s;
   }
   
   .section-item a:hover {
-    color: #4d2323;
+    color: #3c95e8;
   }
   
   .contacts-item:before {
